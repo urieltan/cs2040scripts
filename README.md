@@ -29,5 +29,5 @@ chmod u+x checklab
 
 You can run checklab inside the skeleton file where your java code is
 ```
-checklab
+checklab HelloWorld
 ```
