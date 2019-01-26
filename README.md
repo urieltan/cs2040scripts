@@ -2,9 +2,9 @@
 
 ## checklab
 This is a script to help automate testing for cs2040 labs
-# Prerequistes
+### Prerequistes
 I assume you know what you are doing, I will not be responsible for any messups
-# setup
+### setup
 SSH into the server
 ```
 ssh user@server
@@ -25,7 +25,7 @@ vim checklab
 #Add permissions to run the script
 chmod u+x checklab
 ```
-# Using the script
+### Using the script
 
 You can run checklab inside the skeleton file where your java code is
 ```
