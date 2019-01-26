@@ -3,7 +3,7 @@
 if [ -z "$1" ]
 then
     echo "Problem name is required as the first argument."
-    echo "eg: ./check.sh Helloworld"
+    echo "eg: checklab Helloworld"
     exit 0
     
 fi
