@@ -4,7 +4,7 @@
 This is a script to help automate testing for cs2040 labs
 ### Prerequistes
 I assume you know what you are doing, I will not be responsible for any messups
-### setup
+### Setup
 SSH into the server
 ```
 ssh user@server
