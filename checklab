@@ -22,7 +22,7 @@ fi
 for i in ../input/*.in
 do
     java $problem < $i > ${i/.in/.o}
-    filename=$(basename -- "$i")
+    filename=$(basename "$i")
     filename="${filename%.*}"
     java $problem < $i > ${filename}.o
     results=$( diff ${filename}.o ../output/${filename}.out > ${filename}.diff)
