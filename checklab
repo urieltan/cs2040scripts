@@ -21,7 +21,6 @@ fi
 #enumerate all .in files in the same directory
 for i in ../input/*.in
 do
-    java $problem < $i > ${i/.in/.o}
     filename=$(basename "$i")
     filename="${filename%.*}"
     java $problem < $i > ${filename}.o
